@@ -1,0 +1,9 @@
+def my_function(n1,n2):
+    add=n1+n2
+    print("concatenation tuple =",add)
+n1=(1,2,3,4,5)
+n2=(6,7,8,9)
+my_function(n1,n2)
+
+output:
+concatenation tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9)
