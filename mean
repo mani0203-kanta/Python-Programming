@@ -1,0 +1,7 @@
+s=[16,18,27,16,23,21,19]
+add=sum(s)
+length=len(s)
+print("mean =",int(add/length))
+
+output:
+mean = 20
