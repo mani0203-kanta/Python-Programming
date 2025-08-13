@@ -1,0 +1,15 @@
+def my_function(s,s1):
+    length=len(s1)
+    if length%2==0:
+        median1=s1[length//2]
+        median2=s1[(length//2)-1]
+        median=median1+median2
+    else:
+        median=s1[length//2]
+    return median
+s=[16,18,27,16,23,21,19]
+s1=sorted(s)
+print("median =",my_function(s,s1))
+
+output:
+median = 19
