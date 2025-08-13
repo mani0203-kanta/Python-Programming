@@ -1,0 +1,9 @@
+def my_function(s):
+    add=sum(s)
+    length=len(s)
+    print("mean =",int(add/length))
+s=[16,18,27,16,23,21,19]
+my_function(s)
+
+output:
+mean = 20
