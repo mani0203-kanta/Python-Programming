@@ -1,0 +1,15 @@
+import statistics
+def my_function(s):
+    mean=statistics.mean(s)
+    median=statistics.median(s)
+    mode=statistics.mode(s)
+    print("mean =",mean)
+    print("median =",median)
+    print("mode =",mode)
+s=[16,18,27,16,23,21,19]
+my_function(s)
+
+output:
+mean = 20
+median = 19
+mode = 16
